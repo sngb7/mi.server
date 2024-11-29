@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-11-29 02:44:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2024-11-29 02:32:59 +0000"
@@ -505,6 +511,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-11-29 02:44:15 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/wooden_greatsword": {
     "criteria": {
       "has_wood": "2024-11-29 02:21:15 +0000"
@@ -553,6 +565,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/bolt": {
+    "criteria": {
+      "has_feather": "2024-11-29 02:44:15 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/wooden_boomerang": {
     "criteria": {
       "has_wood": "2024-11-29 02:21:15 +0000"
@@ -595,6 +613,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/fir_wood": {
+    "criteria": {
+      "has_log": "2024-11-29 02:43:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2024-11-29 02:36:07 +0000"
@@ -610,6 +634,18 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2024-11-29 02:25:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_arrow": {
+    "criteria": {
+      "has_feather": "2024-11-29 02:44:15 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/copper_bolt": {
+    "criteria": {
+      "has_feather": "2024-11-29 02:44:15 +0000"
     },
     "done": true
   },
@@ -688,6 +724,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2024-11-29 02:21:47 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_planks": {
+    "criteria": {
+      "has_logs": "2024-11-29 02:43:34 +0000"
     },
     "done": true
   },
@@ -859,6 +901,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-11-29 02:44:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2024-11-29 02:21:47 +0000"
@@ -964,6 +1012,24 @@
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2024-11-29 02:32:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-11-29 02:44:15 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_bolt": {
+    "criteria": {
+      "has_feather": "2024-11-29 02:44:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-11-29 02:50:46 +0000"
     },
     "done": true
   },
@@ -1091,6 +1157,12 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2024-11-29 02:34:43 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2024-11-29 02:44:10 +0000"
     },
     "done": true
   },
@@ -1310,6 +1382,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/iron_arrow": {
+    "criteria": {
+      "has_feather": "2024-11-29 02:44:15 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/pufferfish_trophy": {
     "criteria": {
       "has_pufferfish_trophy": "2024-11-29 02:21:15 +0000"
@@ -1337,6 +1415,12 @@
   "comforts:sleeping_bag_gray": {
     "criteria": {
       "has_gray_wool": "2024-11-29 02:32:59 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_arrow": {
+    "criteria": {
+      "has_feather": "2024-11-29 02:44:15 +0000"
     },
     "done": true
   },
@@ -1466,6 +1550,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/diamond_arrow": {
+    "criteria": {
+      "has_feather": "2024-11-29 02:44:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2024-11-29 02:32:59 +0000"
@@ -1540,7 +1630,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:stony_shore": "2024-11-29 02:38:45 +0000"
+      "minecraft:stony_shore": "2024-11-29 02:38:45 +0000",
+      "minecraft:plains": "2024-11-29 02:47:59 +0000"
     },
     "done": false
   },
@@ -1570,6 +1661,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chicken": "2024-11-29 02:51:26 +0000",
       "cooked_mutton": "2024-11-29 02:33:37 +0000",
       "apple": "2024-11-29 02:39:38 +0000",
       "bread": "2024-11-29 02:35:56 +0000"

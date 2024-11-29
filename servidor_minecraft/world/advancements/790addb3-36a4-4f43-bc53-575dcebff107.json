@@ -22,6 +22,7 @@
       "shrubland": "2024-11-29 02:41:23 +0000",
       "snowblossom_grove": "2024-11-27 02:08:14 +0000",
       "rocky_shrubland": "2024-11-29 02:19:41 +0000",
+      "highland": "2024-11-29 03:01:00 +0000",
       "field": "2024-11-27 02:25:13 +0000",
       "coniferous_forest": "2024-11-27 02:11:16 +0000",
       "spider_nest": "2024-11-29 02:43:52 +0000",
@@ -798,6 +799,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-11-29 03:01:52 +0000",
       "minecraft:skeleton": "2024-11-27 02:05:20 +0000",
       "minecraft:spider": "2024-11-27 02:07:07 +0000",
       "minecraft:enderman": "2024-11-27 02:10:12 +0000",
@@ -838,6 +840,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-11-27 02:05:57 +0000",
+      "cooked_mutton": "2024-11-29 03:02:09 +0000",
       "cooked_beef": "2024-11-27 02:20:42 +0000",
       "rotten_flesh": "2024-11-29 02:34:41 +0000"
     },
@@ -1073,9 +1076,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2024-11-29 03:03:21 +0000",
       "minecraft:beach": "2024-11-27 02:11:29 +0000",
       "minecraft:river": "2024-11-27 02:09:46 +0000",
       "minecraft:stony_shore": "2024-11-27 02:10:22 +0000",
+      "minecraft:forest": "2024-11-29 03:05:06 +0000",
+      "minecraft:old_growth_birch_forest": "2024-11-29 03:04:54 +0000",
       "minecraft:meadow": "2024-11-29 02:46:34 +0000",
       "minecraft:plains": "2024-11-29 02:46:32 +0000"
     },
@@ -1729,9 +1735,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-11-29 03:01:13 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/golden_pike": {
     "criteria": {
       "has_gold_ingot": "2024-11-29 02:48:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-11-29 03:01:13 +0000"
     },
     "done": true
   },
@@ -2026,6 +2044,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2024-11-29 02:35:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2024-11-29 03:02:42 +0000"
     },
     "done": true
   },
@@ -2524,6 +2548,12 @@
   "spartanweaponry:recipes/iron_greatsword": {
     "criteria": {
       "has_iron_ingot": "2024-11-29 02:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-11-29 03:01:12 +0000"
     },
     "done": true
   },

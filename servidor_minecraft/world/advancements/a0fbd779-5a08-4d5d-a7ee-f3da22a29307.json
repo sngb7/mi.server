@@ -21,6 +21,7 @@
     "criteria": {
       "shrubland": "2024-11-27 02:47:24 +0000",
       "snowblossom_grove": "2024-11-27 02:08:17 +0000",
+      "rocky_shrubland": "2024-11-29 02:25:54 +0000",
       "highland": "2024-11-27 02:24:20 +0000",
       "field": "2024-11-27 02:25:20 +0000",
       "coniferous_forest": "2024-11-27 02:11:50 +0000",
@@ -859,7 +860,8 @@
     "criteria": {
       "cooked_porkchop": "2024-11-27 02:07:35 +0000",
       "cooked_mutton": "2024-11-27 02:52:16 +0000",
-      "cooked_beef": "2024-11-27 02:20:45 +0000"
+      "cooked_beef": "2024-11-27 02:20:45 +0000",
+      "rotten_flesh": "2024-11-29 02:24:14 +0000"
     },
     "done": false
   },
@@ -1074,9 +1076,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2024-11-29 02:27:24 +0000",
       "minecraft:beach": "2024-11-27 02:11:33 +0000",
       "minecraft:river": "2024-11-27 02:09:53 +0000",
-      "minecraft:stony_shore": "2024-11-27 02:10:22 +0000"
+      "minecraft:stony_shore": "2024-11-27 02:10:22 +0000",
+      "minecraft:old_growth_birch_forest": "2024-11-29 02:27:46 +0000"
     },
     "done": false
   },
@@ -2487,6 +2491,12 @@
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2024-11-27 02:58:50 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2024-11-29 02:30:14 +0000"
     },
     "done": true
   },

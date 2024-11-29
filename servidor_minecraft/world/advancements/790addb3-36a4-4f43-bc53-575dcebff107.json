@@ -22,10 +22,16 @@
       "shrubland": "2024-11-29 02:41:23 +0000",
       "snowblossom_grove": "2024-11-27 02:08:14 +0000",
       "rocky_shrubland": "2024-11-29 02:19:41 +0000",
+      "scrubland": "2024-11-29 03:09:57 +0000",
       "highland": "2024-11-29 03:01:00 +0000",
+      "old_growth_woodland": "2024-11-29 03:11:05 +0000",
       "field": "2024-11-27 02:25:13 +0000",
+      "mediterranean_forest": "2024-11-29 03:10:37 +0000",
       "coniferous_forest": "2024-11-27 02:11:16 +0000",
       "spider_nest": "2024-11-29 02:43:52 +0000",
+      "dryland": "2024-11-29 03:14:09 +0000",
+      "wasteland": "2024-11-29 03:12:57 +0000",
+      "lush_desert": "2024-11-29 03:13:52 +0000",
       "seasonal_orchard": "2024-11-27 02:00:30 +0000",
       "seasonal_forest": "2024-11-27 02:09:30 +0000",
       "fir_clearing": "2024-11-29 02:43:14 +0000",
@@ -1083,6 +1089,7 @@
       "minecraft:forest": "2024-11-29 03:05:06 +0000",
       "minecraft:old_growth_birch_forest": "2024-11-29 03:04:54 +0000",
       "minecraft:meadow": "2024-11-29 02:46:34 +0000",
+      "minecraft:savanna": "2024-11-29 03:10:19 +0000",
       "minecraft:plains": "2024-11-29 02:46:32 +0000"
     },
     "done": false
@@ -1666,6 +1673,12 @@
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2024-11-29 02:38:27 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/combat/simple_pole": {
+    "criteria": {
+      "has_handle": "2024-11-29 03:11:44 +0000"
     },
     "done": true
   },

@@ -22,11 +22,18 @@
       "shrubland": "2024-11-27 02:47:24 +0000",
       "snowblossom_grove": "2024-11-27 02:08:17 +0000",
       "rocky_shrubland": "2024-11-29 02:25:54 +0000",
+      "scrubland": "2024-11-29 03:08:15 +0000",
+      "lush_savanna": "2024-11-29 03:16:00 +0000",
       "highland": "2024-11-27 02:24:20 +0000",
+      "old_growth_woodland": "2024-11-29 03:10:53 +0000",
       "maple_woods": "2024-11-29 02:35:01 +0000",
       "field": "2024-11-27 02:25:20 +0000",
+      "mediterranean_forest": "2024-11-29 03:08:57 +0000",
       "coniferous_forest": "2024-11-27 02:11:50 +0000",
       "spider_nest": "2024-11-27 02:56:38 +0000",
+      "dryland": "2024-11-29 03:14:10 +0000",
+      "wasteland": "2024-11-29 03:12:55 +0000",
+      "lush_desert": "2024-11-29 03:13:53 +0000",
       "seasonal_orchard": "2024-11-27 02:00:30 +0000",
       "seasonal_forest": "2024-11-27 02:08:10 +0000",
       "fir_clearing": "2024-11-29 02:55:50 +0000",
@@ -1083,7 +1090,9 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2024-11-29 02:35:24 +0000",
+      "minecraft:eroded_badlands": "2024-11-29 03:16:33 +0000",
       "minecraft:birch_forest": "2024-11-29 02:27:24 +0000",
+      "minecraft:badlands": "2024-11-29 03:16:28 +0000",
       "minecraft:beach": "2024-11-27 02:11:33 +0000",
       "minecraft:river": "2024-11-27 02:09:53 +0000",
       "minecraft:stony_shore": "2024-11-27 02:10:22 +0000",
@@ -2625,6 +2634,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_boots": "2024-11-29 03:13:41 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/golden_lance": {
     "criteria": {
       "has_gold_ingot": "2024-11-29 02:38:31 +0000"
@@ -2685,6 +2700,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/combat/simple_pole": {
+    "criteria": {
+      "has_handle": "2024-11-29 03:11:39 +0000"
+    },
+    "done": true
+  },
   "handcrafted:recipes/misc/berry_jam_jar": {
     "criteria": {
       "has_berry_jam_jar": "2024-11-29 02:57:58 +0000"
@@ -2700,6 +2721,12 @@
   "iceandfire:recipes/misc/dragon_flute": {
     "criteria": {
       "has_item": "2024-11-29 02:36:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-11-29 03:11:04 +0000"
     },
     "done": true
   },
@@ -3042,6 +3069,12 @@
   "spartanweaponry:recipes/golden_battleaxe": {
     "criteria": {
       "has_gold_ingot": "2024-11-29 02:38:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_boots": "2024-11-29 03:13:41 +0000"
     },
     "done": true
   },
